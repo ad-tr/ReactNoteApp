@@ -1,4 +1,5 @@
 .Side {
+  padding: 50px;
   position: fixed;
   width: 240px;
   top: 0px;
@@ -6,7 +7,6 @@
   bottom: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: rgb(29, 35, 39);
 }
 
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
-  padding: 16px;
+  padding-top: 16px;
   color: inherit;
   text-decoration: inherit;
   font-weight: bold;
